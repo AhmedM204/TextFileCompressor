@@ -2,7 +2,7 @@
 
 namespace FileCompressor
 {
-    public class FixedSizedCompressor(string path, string outputPath)
+    public class RepeatedWordsCompressor(string path, string outputPath)
     {
         private readonly string path = path;
         private readonly string outputPath = outputPath;
